@@ -35,15 +35,13 @@ co2-emissions-regression/
 └── docs/                       # slides (5) 
 ```
 
-**Dataset:** `data/vehicles_co2_emissions.csv` (44,850 rows, 25 columns), source: [paste the Kaggle link here]. The target is `CO2(g/km)`. To keep things fast, the project uses a random sample of 10,000 rows (`random_state=42`).
+**Dataset:** `data/vehicles_co2_emissions.csv` (44,850 rows, 25 columns), source: https://www.kaggle.com/datasets/hetax17/france-vehicles-co2-emission-2013
+. The target is `CO2(g/km)`. To keep things fast, the project uses a random sample of 10,000 rows (`random_state=42`).
 
 ## Setup
 
 - **Python:** 3.10, 3.11 or 3.12 (tested on Python 3.12.3, Ubuntu). Not 3.13, because the pinned `numpy==1.26.4` has no build for it.
 - **Libraries:** pinned in `requirements.txt` (`numpy 1.26.4`, `pandas 2.2.2`, `matplotlib 3.8.4`, `seaborn 0.13.2`, `scikit-learn 1.4.2`).
-- Tested on: Ubuntu (fresh clone, new virtual environment). [Add: tested on Windows / macOS by <teammate name>]
-
-```bash
 git clone https://github.com/[team-or-user]/co2-emissions-regression.git
 cd co2-emissions-regression
 python -m venv venv
@@ -117,6 +115,5 @@ All plots and `metrics.csv` are in [`outputs/`](outputs/).
 
 ## AI-use disclosure
 
-- **Claude (Anthropic):** suggested the project topic and dataset choice; wrote the first version of the Python code (`explore.py`, `preprocess.py`, `train.py`, `evaluate.py`, `main.py`, the notebook) and a first draft of this README and of the notebook's interpretation text. [Edit: add what your team changed or rewrote.]
-- **How we checked it:** we ran the project from a fresh clone; our gradient descent is compared against scikit-learn's `LinearRegression` inside the code (largest weight difference 0.00001); [Edit: add how your team reviewed the code, and who can explain each file].
-- No AI was used to generate the dataset or the results: every number comes from running the code on the dataset.
+- **Claude (Anthropic):** The initial draft for the code was written by each of the teammate, AI(Claude) was used to refine and present the code in a clearer manner.
+Furthermore, it was used to assist in the process of documentation which the includes the Readme file aswell.
