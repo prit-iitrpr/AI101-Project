@@ -42,7 +42,7 @@ AI101-Project/
 ## Setup
 
 - **Python:** 3.10 to 3.14.
-- **Libraries:** pinned in `requirements.txt` (`numpy 2.4.6`, `pandas 2.2.2`, `matplotlib 3.8.4`, `seaborn 0.13.2`, `scikit-learn 1.4.2`).
+- **Libraries:** pinned in `requirements.txt` (`numpy`, `pandas`, `matplotlib`, `seaborn`, `scikit-learn`).
 
 ```bash
 git clone https://github.com/prit-iitrpr/AI101-Project.git
@@ -107,7 +107,7 @@ All plots and `metrics.csv` are in [`outputs/`](outputs/).
 ## Links
 
 - Slides (5): Team-47 Project.pdf
-- Video (5 Min):
+- Video (5 Min): 
 
 ## AI-use disclosure
 
