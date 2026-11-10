@@ -2,7 +2,7 @@
 
 Predicts a vehicle's CO2 emissions (g/km) from its power, weight, fuel type, gearbox, body style and fuel consumption using linear regression with gradient descent written from scratch (pandas, matplotlib, seaborn, scikit-learn).
 
-![AI101 Mini-Project](https://img.shields.io/badge/AI101-Mini--Project-blue) ![Team](https://img.shields.io/badge/Team-47-lightblue) ![Python](https://img.shields.io/badge/Python-3.10%20to%203.12-blue)
+![AI101 Mini-Project](https://img.shields.io/badge/AI101-Mini--Project-blue) ![Team](https://img.shields.io/badge/Team-47-lightblue) ![Python](https://img.shields.io/badge/Python-3.10%20to%203.14-blue)
 
 ## Team and roles
 
@@ -31,7 +31,9 @@ co2-emissions-regression/
 ├── data/
 │   └── vehicles_co2_emissions.csv    # 44,850 rows, 25 columns
 ├── outputs/                    # plots + metrics.csv (created by main.py)
-└── docs/                       # slides (5) 
+└── Team-47 Project.pdf         # slides (5) 
+└── Team-47 Project.mp4         # video (5 Min) 
+
 ```
 
 **Dataset:** `data/vehicles_co2_emissions.csv` (44,850 rows, 25 columns), source: https://www.kaggle.com/datasets/hetax17/france-vehicles-co2-emission-2013. The target is `CO2(g/km)`.
@@ -103,8 +105,8 @@ All plots and `metrics.csv` are in [`outputs/`](outputs/).
 
 ## Links
 
-- Slides (5): Team-47.pdf
-- Video (max 5:00): Team-47.mp4
+- Slides (5): Team-47 Project.pdf
+- Video (5 Min): Team-47 Project.mp4
 
 ## AI-use disclosure
 

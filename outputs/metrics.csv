@@ -1,0 +1,9 @@
+,,Training,Testing
+Full model,MAE,1.7746,1.7361
+Full model,MSE,18.2308,17.3562
+Full model,RMSE,4.2698,4.1661
+Full model,R2,0.988,0.9886
+Specs-only model,MAE,11.4272,11.4405
+Specs-only model,MSE,236.25,239.3935
+Specs-only model,RMSE,15.3704,15.4723
+Specs-only model,R2,0.8449,0.8422
