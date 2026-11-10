@@ -20,7 +20,7 @@ Predicts a vehicle's CO2 emissions (g/km) from its power, weight, fuel type, gea
 ## Project structure
 
 ```
-co2-emissions-regression/
+AI101-Project/
 ├── README.md
 ├── requirements.txt            # pinned library versions
 ├── main.py                     # entry point: runs everything, saves plots to outputs/
@@ -31,12 +31,13 @@ co2-emissions-regression/
 ├── data/
 │   └── vehicles_co2_emissions.csv    # 44,850 rows, 25 columns
 ├── outputs/                    # plots + metrics.csv (created by main.py)
-└── Team-47 Project.pdf         # slides (5) 
-└── Team-47 Project.mp4         # video (5 Min) 
+└── Team-47 Project.pdf         # slides (5)
 
 ```
 
-**Dataset:** `data/vehicles_co2_emissions.csv` (44,850 rows, 25 columns), source: https://www.kaggle.com/datasets/hetax17/france-vehicles-co2-emission-2013. The target is `CO2(g/km)`.
+- **Dataset:** `data/vehicles_co2_emissions.csv` (44,850 rows, 25 columns)
+- **Source:** https://www.kaggle.com/datasets/hetax17/france-vehicles-co2-emission-2013.
+- **Target:** `CO2(g/km)`.
 
 ## Setup
 
@@ -51,7 +52,7 @@ pip install -r requirements.txt
 
 ## How to run
 
-1. Run `python main.py`
+1. First run command given above and then run `python main.py`
 2. The script prints the statistics and the evaluation tables, and saves 11 plots and `metrics.csv` in `outputs/`.
 3. Expected runtime: About 25 seconds. No internet is needed (the data is in the repo).
 
@@ -106,7 +107,7 @@ All plots and `metrics.csv` are in [`outputs/`](outputs/).
 ## Links
 
 - Slides (5): Team-47 Project.pdf
-- Video (5 Min): Team-47 Project.mp4
+- Video (5 Min):
 
 ## AI-use disclosure
 
