@@ -106,7 +106,7 @@ All plots and `metrics.csv` are in [`outputs/`](outputs/).
 
 ## Links
 
-- Slides (5): Team-47 Project.pdf
+- Slides (5): [`PPT`](Team-47%20Project.pdf)
 - Video (5 Min): https://youtu.be/tVPJYkYCTBk
 
 ## AI-use disclosure
